@@ -8,8 +8,8 @@ if (Test-Path "$env:localappdata\nvim") {
 	Rename-Item "$env:localappdata\nvim" "$env:localappdata\nvim.$date"
 }
 
-git clone $NVIM_GIT_REPOSITORY "$env:localappdata\nvim"
+git clone "$NVIM_GIT_REPOSITORY" "$env:localappdata\nvim"
 
-git clone $PACKER_GIT_REPOSITORY $PACKER_GIT_REPOSITORY
+git clone "$PACKER_GIT_REPOSITORY" "$PACKER_GIT_REPOSITORY"
 
 echo "DONE! Enjoy your nvim!"
