@@ -7,9 +7,9 @@
 
 # 使用
 
-## 下载配置文件
+## 1. 下载配置文件
 
-### Linux
+### Linux 
 
 启动终端，执行如下命令：
 
@@ -17,7 +17,15 @@
 bash -c "$(wget -O- https://raw.githubusercontent.com/bonjourcs/easy-configs-nvim/main/install.sh)"
 ```
 
-## 安装插件
+### Windows
+
+启动 PowerShell 窗口，执行如下命令：
+
+```shell
+
+```
+
+## 2. 安装插件
 
 启动 NeoVim，执行如下命令：
 
