@@ -1,6 +1,6 @@
 $NVIM_GIT_REPOSITORY = "https://github.com/bonjourcs/easy-configs-nvim.git"
 $PACKER_GIT_REPOSITORY = "https://github.com/wbthomason/packer.nvim"
-$PCAKER_DIR = "$env:localappdata\nvim-data\site\pack\packer\start\packer.nvim"
+$PACKER_DIR = "$env:localappdata\nvim-data\site\pack\packer\start\packer.nvim"
 
 $date = "{0:yyyyMMddHHmmss}" -f (Get-Date)
 
@@ -10,6 +10,6 @@ if (Test-Path "$env:localappdata\nvim") {
 
 git clone "$NVIM_GIT_REPOSITORY" "$env:localappdata\nvim"
 
-git clone "$PACKER_GIT_REPOSITORY" "$PACKER_GIT_REPOSITORY"
+git clone "$PACKER_GIT_REPOSITORY" "$PACKER_DIR"
 
 echo "DONE! Enjoy your nvim!"
