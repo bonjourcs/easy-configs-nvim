@@ -5,7 +5,7 @@ USER_NVIM_CONFIG_DIR=~/.config/nvim
 PCAKER_DIR=~/.local/share/nvim/site/pack/packer/start/packer.nvim
 timestamp=$(date +%s)
 
-if [ -d  $USER_NVIM_CONFIG_DIR]; then
+if [ -d  $USER_NVIM_CONFIG_DIR ]; then
 	mv $USER_NVIM_CONFIG_DIR $USER_NVIM_CONFIG_DIR.$timestamp
 fi
 
