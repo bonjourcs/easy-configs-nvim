@@ -10,6 +10,9 @@ if (Test-Path "$env:localappdata\nvim") {
 
 git clone "$NVIM_GIT_REPOSITORY" "$env:localappdata\nvim"
 
-git clone "$PACKER_GIT_REPOSITORY" "$PACKER_DIR"
+# 只有packer文件夹不存在的时候才需要下载
+if (-not (Test-Path "$PACKER_DIR")) {
+	git clone "$PACKER_GIT_REPOSITORY" "$PACKER_DIR"
+}
 
 echo "DONE! Enjoy your nvim!"
