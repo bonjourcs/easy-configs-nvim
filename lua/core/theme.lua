@@ -1,1 +1,1 @@
-vim.cmd 'colorscheme onedark'
+require('github-theme').setup()

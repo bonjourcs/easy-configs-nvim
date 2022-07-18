@@ -28,7 +28,7 @@ return require('packer').startup(
 			}
 		}
 		-- theme
-		use 'joshdick/onedark.vim'
+		use 'projekt0n/github-nvim-theme'
 		-- ide-like tabs
 		use {
 			'akinsho/bufferline.nvim',
