@@ -15,6 +15,6 @@ fi
 
 git clone $NVIM_GIT_REPOSITORY $USER_NVIM_CONFIG_DIR
 
-git clone $PACKER_GIT_REPOSITORY $PCAKER_DIR 
+git clone --depth 1 $PACKER_GIT_REPOSITORY $PCAKER_DIR 
 
 echo "DONE! Enjoy your nvim!"
