@@ -22,7 +22,7 @@ bash -c "$(wget -O- https://raw.githubusercontent.com/bonjourcs/easy-configs-nvi
 启动 PowerShell 窗口，执行如下命令：
 
 ```shell
-wget -O- https://raw.githubusercontent.com/bonjourcs/easy-configs-nvim/main/install.sh | pwsh
+wget -O- https://raw.githubusercontent.com/bonjourcs/easy-configs-nvim/main/install.ps1 | pwsh
 ```
 
 ## 2. 安装插件
