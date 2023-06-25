@@ -28,7 +28,12 @@ return require('packer').startup(
 			}
 		}
 		-- theme
-		use 'projekt0n/github-nvim-theme'
+		use {
+			'folke/tokyonight.nvim',
+			lzay = false,
+			priority = 1000,
+			opts = {}
+		}
 		-- ide-like tabs
 		use {
 			'akinsho/bufferline.nvim',
@@ -48,12 +53,6 @@ return require('packer').startup(
 		use 'williamboman/nvim-lsp-installer'
 		use 'neovim/nvim-lspconfig'
 		use 'p00f/clangd_extensions.nvim'
-		-- autocomplete coc
-		-- use {
-		-- 	'neoclide/coc.nvim',
-		-- 	branch = 'release'
-		-- }
-		-- autocomplete 
 		use 'hrsh7th/cmp-nvim-lsp'
 		use 'hrsh7th/cmp-buffer'
 		use 'hrsh7th/cmp-path'

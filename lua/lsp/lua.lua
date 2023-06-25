@@ -1,5 +1,5 @@
 -- sumneko_lua config
-require('lspconfig')['sumneko_lua'].setup({
+require('lspconfig')['lua_ls'].setup({
 	settings = {
 		runtime = {
 			version = 'LuaJIT'
