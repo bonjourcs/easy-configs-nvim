@@ -32,3 +32,5 @@ vim.opt.incsearch = true
 vim.opt.ignorecase = true
 -- 字体
 vim.opt.guifont='JetBrainsMono Nerd Font Mono:h14'
+-- 主题
+vim.cmd[[colorscheme tokyonight]]
